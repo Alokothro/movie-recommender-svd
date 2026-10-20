@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# MovieLens data (license does not allow redistribution)
+ml-100k/
+ml-100k.zip
