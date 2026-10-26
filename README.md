@@ -16,6 +16,7 @@ or comedy), so the full matrix should be close to a low-rank matrix. That's what
 | # | Notebook | What it covers |
 |---|---|---|
 | 1 | [Ratings as a matrix](notebooks/01%20ratings%20matrix.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alokothro/movie-recommender-svd/blob/main/notebooks/01%20ratings%20matrix.ipynb) | A toy ratings matrix, exploring MovieLens 100K, building the 943 × 1682 user-by-movie matrix, and why a low-rank model makes sense |
+| 2 | [Honest testing and baselines](notebooks/02_baselines.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alokothro/movie-recommender-svd/blob/main/notebooks/02_baselines.ipynb) | Hiding 10% of the ratings for a fair test, scoring with RMSE, and simple average-based baselines. Best baseline (user + movie effects): **RMSE 0.9545**, the score to beat |
 
 ## Data
 
@@ -31,7 +32,7 @@ We use the [MovieLens 100K](https://grouplens.org/datasets/movielens/100k/) data
 
 ```
 notebooks/   Colab notebooks, one for each milestone
-src/         Reusable Python code for later in the project
+src/         Reusable Python code (evaluate.py, models.py)
 figures/     Plots and other saved images
 ```
 
