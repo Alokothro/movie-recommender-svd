@@ -17,6 +17,7 @@ or comedy), so the full matrix should be close to a low-rank matrix. That's what
 |---|---|---|
 | 1 | [Ratings as a matrix](notebooks/01%20ratings%20matrix.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alokothro/movie-recommender-svd/blob/main/notebooks/01%20ratings%20matrix.ipynb) | A toy ratings matrix, exploring MovieLens 100K, building the 943 × 1682 user-by-movie matrix, and why a low-rank model makes sense |
 | 2 | [Honest testing and baselines](notebooks/02_baselines.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alokothro/movie-recommender-svd/blob/main/notebooks/02_baselines.ipynb) | Hiding 10% of the ratings for a fair test, scoring with RMSE, and simple average-based baselines. Best baseline (user + movie effects): **RMSE 0.9545**, the score to beat |
+| 3 | [Low-rank prediction with the SVD](notebooks/03_low_rank.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alokothro/movie-recommender-svd/blob/main/notebooks/03_low_rank.ipynb) | Picking the rank with a validation set, three SVD models (fill with movie averages, SVD of baseline deviations, iterative SVD), and the first recommendations. Iterative SVD (rank 2): **test RMSE 0.9286**, beating the 0.9545 baseline |
 
 ## Data
 
