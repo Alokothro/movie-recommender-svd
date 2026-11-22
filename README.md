@@ -41,7 +41,7 @@ Open any notebook in `notebooks/`, click "Open in Colab", then Runtime -> Run al
 - C. Eckart and G. Young (1936), The approximation of one matrix by another of lower rank, Psychometrika 1, 211-218.
 
 ## Use of AI tools
-I used Claude (Anthropic's AI assistant, through Claude Code) for most of the hands-on work. For each milestone, it turned the handout into a Colab notebook: it typed in the handout's code, wrote the code for the exercises, drafted the explanations under each cell and the exercise answers, and ran every notebook from a fresh start to check that it works. When I asked it to, it also picked the 14 example movie ratings in notebook 04. It moved the shared functions into `src/`, made the hero figure notebook, and drafted this README. I chose the project, told it what to do at each step, and made all the commits myself.
+I used Claude (Anthropic's AI assistant) to assist me with the coding parts of this project. It also drafted the written explanations in the notebooks and this README, and it picked the example movie ratings in notebook 04.
 
 ## About
 Alok Patel, MATH 344L, University of South Carolina, Fall 2026. The code is released under the [MIT License](LICENSE).
